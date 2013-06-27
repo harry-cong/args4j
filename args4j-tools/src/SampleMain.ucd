@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="SampleMain" size="967,646" id="" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D31302061726773346A">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2" name="CmdLineException" location="295,50" size="189,48" id="org.kohsuke.args4j/CmdLineException">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.2/@sourceConnections.0" name="ExampleMode" location="50,296" size="150,94" id="org.kohsuke.args4j/ExampleMode">
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,36">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ALL" id="org.kohsuke.args4j/ExampleMode#ALL%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="REQUIRED" id="org.kohsuke.args4j/ExampleMode#REQUIRED%"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SampleMain" location="243,244" size="135,32" id="/SampleMain">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/SampleMain-Soyatec::Access->org.kohsuke.args4j/ExampleMode" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Access»" size="58,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="31,32" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,13"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/SampleMain-Standard::Instantiate->org.kohsuke.args4j/CmdLineParser*/SampleMain-Soyatec::Import->org.kohsuke.args4j/CmdLineParser*/SampleMain-Standard::Call->org.kohsuke.args4j/CmdLineParser" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,32" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/SampleMain-Standard::Send->org.kohsuke.args4j/CmdLineException*/SampleMain-Soyatec::Import->org.kohsuke.args4j/CmdLineException*/SampleMain-Standard::Instantiate->org.kohsuke.args4j/CmdLineException*/SampleMain-Standard::Call->org.kohsuke.args4j/CmdLineException" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import, Call, Send»" size="186,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,48"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1" name="CmdLineParser" location="385,385" size="163,48" id="org.kohsuke.args4j/CmdLineParser">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="libraryFilter=;ModelFrozen=true;ComputedContent=true;displayOptions=1;open=org.kohsuke.args4j/ExampleMode,org.kohsuke.args4j/CmdLineParser,org.kohsuke.args4j/CmdLineException,/SampleMain;Product=eDepend;link=/SampleMain-Soyatec::Access->org.kohsuke.args4j/ExampleMode,/SampleMain-Standard::Instantiate->org.kohsuke.args4j/CmdLineParser,/SampleMain-Standard::Send->org.kohsuke.args4j/CmdLineException,/SampleMain-Soyatec::Import->org.kohsuke.args4j/CmdLineException,/SampleMain-Standard::Instantiate->org.kohsuke.args4j/CmdLineException,/SampleMain-Standard::Call->org.kohsuke.args4j/CmdLineException,/SampleMain-Soyatec::Import->org.kohsuke.args4j/CmdLineParser,/SampleMain-Standard::Call->org.kohsuke.args4j/CmdLineParser;dependencyFilter=Standard::Derive,Soyatec::Implement,Standard::Instantiate,Standard::Create,Standard::Call,Standard::Send,Soyatec::Access,Soyatec::Import,;wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showDependencyStereotype="true" showEnumerationStereotype="false" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

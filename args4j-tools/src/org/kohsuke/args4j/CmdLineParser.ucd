@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="CmdLineParser" size="1944,870" id="org.kohsuke.args4j" metadata="uml2-1.0" initialized="true" scrolledX="-110" tag="10" key="32303037303533312D31302061726773346A">
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.10/@sourceConnections.8" name="Messages" location="524,165" size="259,258" id="org.kohsuke.args4j/Messages" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="236,216">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="METADATA_ERROR" id="org.kohsuke.args4j/Messages#METADATA_ERROR%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="MISSING_OPERAND" id="org.kohsuke.args4j/Messages#MISSING_OPERAND%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="MULTIPLE_USE_OF_ARGUMENT" id="org.kohsuke.args4j/Messages#MULTIPLE_USE_OF_ARGUMENT%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="MULTIPLE_USE_OF_OPTION" id="org.kohsuke.args4j/Messages#MULTIPLE_USE_OF_OPTION%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NO_ARGUMENT_ALLOWED" id="org.kohsuke.args4j/Messages#NO_ARGUMENT_ALLOWED%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NO_CONSTRUCTOR_ON_HANDLER" id="org.kohsuke.args4j/Messages#NO_CONSTRUCTOR_ON_HANDLER%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NO_OPTIONHANDLER" id="org.kohsuke.args4j/Messages#NO_OPTIONHANDLER%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="REQUIRED_ARGUMENT_MISSING" id="org.kohsuke.args4j/Messages#REQUIRED_ARGUMENT_MISSING%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="REQUIRED_OPTION_MISSING" id="org.kohsuke.args4j/Messages#REQUIRED_OPTION_MISSING%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="TOO_MANY_ARGUMENTS" id="org.kohsuke.args4j/Messages#TOO_MANY_ARGUMENTS%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="UNDEFINED_OPTION" id="org.kohsuke.args4j/Messages#UNDEFINED_OPTION%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="UNKNOWN_HANDLER" id="org.kohsuke.args4j/Messages#UNKNOWN_HANDLER%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.7 //@children.5/@sourceConnections.0" name="OptionDef" location="1038,420" size="131,196" id="org.kohsuke.args4j/OptionDef" runTimeClassModel="metaVar(),usage(),isArgument(),required(),OptionDef,handler(),isMultiValued(),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,144">
+      <children xsi:type="editmodel:MethodEditModel" name="OptionDef" id="org.kohsuke.args4j/OptionDef#OptionDef"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handler" id="org.kohsuke.args4j/OptionDef#handler()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isArgument" id="org.kohsuke.args4j/OptionDef#isArgument()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isMultiValued" id="org.kohsuke.args4j/OptionDef#isMultiValued()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="metaVar" id="org.kohsuke.args4j/OptionDef#metaVar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="required" id="org.kohsuke.args4j/OptionDef#required()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="org.kohsuke.args4j/OptionDef#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="usage" id="org.kohsuke.args4j/OptionDef#usage()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.3" name="ClassParser" location="-13,780" size="137,70" id="org.kohsuke.args4j/ClassParser" runTimeClassModel="parse(Ljava.lang.Object;Lorg.kohsuke.args4j.CmdLineParser;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="org.kohsuke.args4j/ClassParser#parse(Ljava.lang.Object;Lorg.kohsuke.args4j.CmdLineParser;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.10/@sourceConnections.2" name="ExampleMode" location="-19,585" size="150,78" id="org.kohsuke.args4j/ExampleMode" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,36">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ALL" id="org.kohsuke.args4j/ExampleMode#ALL%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="REQUIRED" id="org.kohsuke.args4j/ExampleMode#REQUIRED%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.1" name="CmdLineException" location="517,672" size="189,178" id="org.kohsuke.args4j/CmdLineException" runTimeClassModel="CmdLineException(Lorg.kohsuke.args4j.CmdLineParser;Ljava.lang.Throwable;),CmdLineException(Ljava.lang.String;),CmdLineException(Lorg.kohsuke.args4j.CmdLineParser;Ljava.lang.String;),CmdLineException(Ljava.lang.Throwable;),getParser(),CmdLineException(Ljava.lang.String;Ljava.lang.Throwable;),CmdLineException(Lorg.kohsuke.args4j.CmdLineParser;Ljava.lang.String;Ljava.lang.Throwable;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,126">
+      <children xsi:type="editmodel:MethodEditModel" name="CmdLineException" id="org.kohsuke.args4j/CmdLineException#CmdLineException(Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CmdLineException" id="org.kohsuke.args4j/CmdLineException#CmdLineException(Lorg.kohsuke.args4j.CmdLineParser;Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CmdLineException" id="org.kohsuke.args4j/CmdLineException#CmdLineException(Lorg.kohsuke.args4j.CmdLineParser;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CmdLineException" id="org.kohsuke.args4j/CmdLineException#CmdLineException(Ljava.lang.String;Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CmdLineException" id="org.kohsuke.args4j/CmdLineException#CmdLineException(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CmdLineException" id="org.kohsuke.args4j/CmdLineException#CmdLineException(Lorg.kohsuke.args4j.CmdLineParser;Ljava.lang.String;Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getParser" id="org.kohsuke.args4j/CmdLineException#getParser()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.4" name="NamedOptionDef" location="524,450" size="175,160" id="org.kohsuke.args4j/NamedOptionDef" runTimeClassModel="NamedOptionDef,name(),aliases(),isArgument(),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,108">
+      <children xsi:type="editmodel:MethodEditModel" name="NamedOptionDef" id="org.kohsuke.args4j/NamedOptionDef#NamedOptionDef"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NamedOptionDef" id="org.kohsuke.args4j/NamedOptionDef#NamedOptionDef"/>
+      <children xsi:type="editmodel:MethodEditModel" name="aliases" id="org.kohsuke.args4j/NamedOptionDef#aliases()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isArgument" id="org.kohsuke.args4j/NamedOptionDef#isArgument()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="name" id="org.kohsuke.args4j/NamedOptionDef#name()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="org.kohsuke.args4j/NamedOptionDef#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.kohsuke.args4j/OptionDef&lt;-org.kohsuke.args4j/NamedOptionDef" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,79" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,109"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.10/@sourceConnections.6" name="Setter" location="285,165" size="175,158" id="org.kohsuke.args4j.spi/Setter" runTimeClassModel="getType(),asAnnotatedElement(),asFieldSetter(),addValue(LT;),isMultiValued()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,90">
+      <children xsi:type="editmodel:MethodEditModel" name="addValue" id="org.kohsuke.args4j.spi/Setter#addValue(LT;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="asAnnotatedElement" id="org.kohsuke.args4j.spi/Setter#asAnnotatedElement()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="asFieldSetter" id="org.kohsuke.args4j.spi/Setter#asFieldSetter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getType" id="org.kohsuke.args4j.spi/Setter#getType()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isMultiValued" id="org.kohsuke.args4j.spi/Setter#isMultiValued()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0" name="IllegalAnnotationError" location="825,241" size="214,106" id="org.kohsuke.args4j/IllegalAnnotationError" runTimeClassModel="IllegalAnnotationError(Ljava.lang.String;),IllegalAnnotationError(Ljava.lang.String;Ljava.lang.Throwable;),IllegalAnnotationError(Ljava.lang.Throwable;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,54">
+      <children xsi:type="editmodel:MethodEditModel" name="IllegalAnnotationError" id="org.kohsuke.args4j/IllegalAnnotationError#IllegalAnnotationError(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="IllegalAnnotationError" id="org.kohsuke.args4j/IllegalAnnotationError#IllegalAnnotationError(Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="IllegalAnnotationError" id="org.kohsuke.args4j/IllegalAnnotationError#IllegalAnnotationError(Ljava.lang.String;Ljava.lang.Throwable;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.9" name="EnumOptionHandler" location="-105,420" size="236,122" id="org.kohsuke.args4j.spi/EnumOptionHandler" runTimeClassModel="EnumOptionHandler(Lorg.kohsuke.args4j.CmdLineParser;Lorg.kohsuke.args4j.OptionDef;Lorg.kohsuke.args4j.spi.Setter;Ljava.lang.Class;),parseArguments(Lorg.kohsuke.args4j.spi.Parameters;),getDefaultMetaVariable()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,54">
+      <children xsi:type="editmodel:MethodEditModel" name="EnumOptionHandler" id="org.kohsuke.args4j.spi/EnumOptionHandler#EnumOptionHandler(Lorg.kohsuke.args4j.CmdLineParser;Lorg.kohsuke.args4j.OptionDef;Lorg.kohsuke.args4j.spi.Setter;Ljava.lang.Class;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDefaultMetaVariable" id="org.kohsuke.args4j.spi/EnumOptionHandler#getDefaultMetaVariable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parseArguments" id="org.kohsuke.args4j.spi/EnumOptionHandler#parseArguments(Lorg.kohsuke.args4j.spi.Parameters;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.5" name="OptionHandler" location="45,165" size="191,140" id="org.kohsuke.args4j.spi/OptionHandler" runTimeClassModel="parseArguments(Lorg.kohsuke.args4j.spi.Parameters;),getDefaultMetaVariable(),getNameAndMeta(Ljava.util.ResourceBundle;),getMetaVariable(Ljava.util.ResourceBundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,72">
+      <children xsi:type="editmodel:MethodEditModel" name="getDefaultMetaVariable" id="org.kohsuke.args4j.spi/OptionHandler#getDefaultMetaVariable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMetaVariable" id="org.kohsuke.args4j.spi/OptionHandler#getMetaVariable(Ljava.util.ResourceBundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNameAndMeta" id="org.kohsuke.args4j.spi/OptionHandler#getNameAndMeta(Ljava.util.ResourceBundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parseArguments" id="org.kohsuke.args4j.spi/OptionHandler#parseArguments(Lorg.kohsuke.args4j.spi.Parameters;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CmdLineParser" location="225,420" size="176,322" id="org.kohsuke.args4j/CmdLineParser" runTimeClassModel="parseArgument(Ljava.util.Collection;),addOption,printSingleLineUsage(Ljava.io.OutputStream;),setUsageWidth(I),addArgument,printExample(Lorg.kohsuke.args4j.ExampleMode;Ljava.util.ResourceBundle;),stopOptionParsing(),getArguments(),printUsage(Ljava.io.OutputStream;),CmdLineParser(Ljava.lang.Object;),printSingleLineUsage(Ljava.io.Writer;Ljava.util.ResourceBundle;),parseArgument([Ljava.lang.String;),registerHandler(Ljava.lang.Class;Ljava.lang.Class;),printUsage(Ljava.io.Writer;Ljava.util.ResourceBundle;),printExample(Lorg.kohsuke.args4j.ExampleMode;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,270">
+      <children xsi:type="editmodel:MethodEditModel" name="CmdLineParser" id="org.kohsuke.args4j/CmdLineParser#CmdLineParser(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addArgument" id="org.kohsuke.args4j/CmdLineParser#addArgument"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addOption" id="org.kohsuke.args4j/CmdLineParser#addOption"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getArguments" id="org.kohsuke.args4j/CmdLineParser#getArguments()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parseArgument" id="org.kohsuke.args4j/CmdLineParser#parseArgument(Ljava.util.Collection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parseArgument" id="org.kohsuke.args4j/CmdLineParser#parseArgument([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printExample" id="org.kohsuke.args4j/CmdLineParser#printExample(Lorg.kohsuke.args4j.ExampleMode;Ljava.util.ResourceBundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printExample" id="org.kohsuke.args4j/CmdLineParser#printExample(Lorg.kohsuke.args4j.ExampleMode;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printSingleLineUsage" id="org.kohsuke.args4j/CmdLineParser#printSingleLineUsage(Ljava.io.Writer;Ljava.util.ResourceBundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printSingleLineUsage" id="org.kohsuke.args4j/CmdLineParser#printSingleLineUsage(Ljava.io.OutputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printUsage" id="org.kohsuke.args4j/CmdLineParser#printUsage(Ljava.io.OutputStream;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="printUsage" id="org.kohsuke.args4j/CmdLineParser#printUsage(Ljava.io.Writer;Ljava.util.ResourceBundle;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerHandler" id="org.kohsuke.args4j/CmdLineParser#registerHandler(Ljava.lang.Class;Ljava.lang.Class;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUsageWidth" id="org.kohsuke.args4j/CmdLineParser#setUsageWidth(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopOptionParsing" id="org.kohsuke.args4j/CmdLineParser#stopOptionParsing()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Send->org.kohsuke.args4j/IllegalAnnotationError*org.kohsuke.args4j/CmdLineParser-Standard::Instantiate->org.kohsuke.args4j/IllegalAnnotationError*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j/IllegalAnnotationError" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Send»" size="156,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,120" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,103"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Send->org.kohsuke.args4j/CmdLineException*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j/CmdLineException" source="//@children.10" target="//@children.4" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Send»" size="88,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,286" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,34"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Call->org.kohsuke.args4j/ExampleMode*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j/ExampleMode" source="//@children.10" target="//@children.3" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="80,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,203" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,38"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Call->org.kohsuke.args4j/ClassParser*org.kohsuke.args4j/CmdLineParser-Standard::Instantiate->org.kohsuke.args4j/ClassParser" source="//@children.10" target="//@children.2" targetEnd="//@children.10/@sourceConnections.3/@children.2" label="//@children.10/@sourceConnections.3/@children.0" sourceEnd="//@children.10/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call»" size="104,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,241" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Call->org.kohsuke.args4j/NamedOptionDef*org.kohsuke.args4j/CmdLineParser-Standard::Instantiate->org.kohsuke.args4j/NamedOptionDef*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j/NamedOptionDef" source="//@children.10" target="//@children.5" targetEnd="//@children.10/@sourceConnections.4/@children.2" label="//@children.10/@sourceConnections.4/@children.0" sourceEnd="//@children.10/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,110" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,80"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Call->org.kohsuke.args4j.spi/OptionHandler*org.kohsuke.args4j/CmdLineParser-Soyatec::Access->org.kohsuke.args4j.spi/OptionHandler*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j.spi/OptionHandler" source="//@children.10" target="//@children.9" targetEnd="//@children.10/@sourceConnections.5/@children.2" label="//@children.10/@sourceConnections.5/@children.0" sourceEnd="//@children.10/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access, Call»" size="131,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,140"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Call->org.kohsuke.args4j.spi/Setter*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j.spi/Setter" source="//@children.10" target="//@children.6" targetEnd="//@children.10/@sourceConnections.6/@children.2" label="//@children.10/@sourceConnections.6/@children.0" sourceEnd="//@children.10/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="80,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,158"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Call->org.kohsuke.args4j/OptionDef*org.kohsuke.args4j/CmdLineParser-Standard::Instantiate->org.kohsuke.args4j/OptionDef*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j/OptionDef" source="//@children.10" target="//@children.1" targetEnd="//@children.10/@sourceConnections.7/@children.2" label="//@children.10/@sourceConnections.7/@children.0" sourceEnd="//@children.10/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate, Call»" size="148,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,98" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,98"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Call->org.kohsuke.args4j/Messages*org.kohsuke.args4j/CmdLineParser-Soyatec::Access->org.kohsuke.args4j/Messages*org.kohsuke.args4j/CmdLineParser-Soyatec::Import->org.kohsuke.args4j/Messages" source="//@children.10" target="//@children.0" targetEnd="//@children.10/@sourceConnections.8/@children.2" label="//@children.10/@sourceConnections.8/@children.0" sourceEnd="//@children.10/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access, Call»" size="131,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,256"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.kohsuke.args4j/CmdLineParser-Standard::Instantiate->org.kohsuke.args4j.spi/EnumOptionHandler" source="//@children.10" target="//@children.8" targetEnd="//@children.10/@sourceConnections.9/@children.2" label="//@children.10/@sourceConnections.9/@children.0" sourceEnd="//@children.10/@sourceConnections.9/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,16" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,60" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="236,60"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="ModelFrozen=true;open=org.kohsuke.args4j/CmdLineParser;wireOptions=4;Product=eDepend;dependencyFilter=Standard::Derive,Soyatec::Implement,Standard::Instantiate,Standard::Create,Standard::Call,Standard::Send,Soyatec::Access,Soyatec::Import,;libraryFilter=;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showDependencyStereotype="true" showEnumerationStereotype="false" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
