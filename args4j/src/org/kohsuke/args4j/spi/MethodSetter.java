@@ -1,6 +1,5 @@
 package org.kohsuke.args4j.spi;
 
-import org.kohsuke.args4j.spi.Setter;
 import org.kohsuke.args4j.*;
 
 import java.lang.reflect.AnnotatedElement;
@@ -46,7 +45,7 @@ public final class MethodSetter implements Setter {
         try {
             try {
                 m.invoke(bean,value);
-            } catch (IllegalAccessException _) {
+            } catch (IllegalAccessException ex) {
                 // try again
                 m.setAccessible(true);
                 try {
